@@ -82,8 +82,8 @@ if st.button("Calculate CO2 Emissions"):
     with col4:
         st.subheader("Total Carbon Footprint")
         if total_emissions> 0.39:
-            # flexible_error(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities", font_size=20)
-            st.success(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities")
+            flexible_error(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities", font_size=20)
+            # st.success(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities")
             
         else:
             st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year, This is within acceptable range")
