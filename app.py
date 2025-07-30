@@ -1,5 +1,5 @@
 import streamlit as st
-# from st_flexible_callout_elements import flexible_error, flexible_success, flexible_warning, flexible_info
+from st_flexible_callout_elements import flexible_error, flexible_success, flexible_warning, flexible_info
 
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
