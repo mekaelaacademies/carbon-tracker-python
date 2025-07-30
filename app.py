@@ -81,7 +81,7 @@ if st.button("Calculate CO2 Emissions"):
 
     with col4:
         st.subheader("Total Carbon Footprint")
-        if total_emissions> 0.39:
+        if total_emissions> 4.7:
             flexible_error(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities", font_size=20)
             # st.success(f"⚠️ Your total carbon footprint is: {total_emissions} tonnes CO2 per year,This is above average please check your daily activities")
             
@@ -90,4 +90,4 @@ if st.button("Calculate CO2 Emissions"):
 
 
         
-        st.warning("In 2023, CO2 emissions per capita for Kenya was 0.39 tons of CO2 per capita. ")
+        st.warning("The global average energy-related carbon footprint is around 4.7 tonnes of CO2 per person  ")
